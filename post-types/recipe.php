@@ -395,9 +395,9 @@ function recipe_save_multi_field( $post_id, $field )
 function recipe_metaboxes()
 {
     $boxes = array(
-        'recipe_duration' => array(
-            'title' => 'Duration',
-            'callback' => 'recipe_duration',
+        'recipe_cook_time' => array(
+            'title' => 'Cook Time',
+            'callback' => 'recipe_cook_time',
             'post_type' => 'recipe',
             'context' => 'normal',
             'priority' => 'default'
